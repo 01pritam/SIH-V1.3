@@ -1,0 +1,40 @@
+/* styles.css (or your preferred CSS file) */
+
+/* Carousel container */
+.myCarousel {
+    max-width: 800px; /* Set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+    background-color: #f0f0f0; /* Background color for the carousel */
+    padding: 20px; /* Add spacing around the carousel */
+    margin-top: 50px;
+  }
+  
+  /* Individual carousel slide */
+  .myCarousel .carousel .slide {
+    display: flex; /* Display slides in a row */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */  
+    text-align: center; /* Center text within slides */
+    background-color: #fff; /* Background color for each slide */
+    border: 1px solid #ccc; /* Border around each slide */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+    padding: 20px; /* Add spacing around slide content */
+  }
+  
+  /* Slide title */
+  .myCarousel .carousel .slide h2 {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 10px; /* Spacing below the title */
+  }
+  
+  /* Slide description */
+  .myCarousel .carousel .slide p {
+    font-size: 16px; /* Description font size */
+  }
+  
+  /* Slide images */
+  .myCarousel .carousel .slide img {
+    max-width: 100%; /* Ensure images fit within slide width */
+    height: auto; /* Maintain image aspect ratio */
+  }
+  

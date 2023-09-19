@@ -1,0 +1,216 @@
+/* Projects.css */
+
+/* Container for the entire Projects section */
+.projects-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* text-align: center; */
+}
+
+/* Title for the Projects section */
+.projects-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Add Project button */
+.add-project-button {
+  font-size: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-project-button:hover {
+  background-color: #218838;
+}
+
+/* Project submission form */
+.project-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-form h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.project-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-form input[type='text'],
+.project-form input[type='url'] {
+  margin: 19px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.project-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.project-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Container for the list of projects */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Styling for individual project cards */
+.project-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-details {
+  padding: 10px;
+  text-align: left;
+}
+
+.project-details h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.project-details p {
+  color: #666;
+}
+
+.project-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-details a:hover {
+  text-decoration: underline;
+}
+
+
+/* Add this CSS for the image upload */
+.project-form input[type='file'] {
+margin: 19px 0;
+}
+
+/* Add this CSS for the comments */
+.project-form small {
+display: block;
+margin-top: 5px;
+font-size: 2rem; /* Adjust the font size as needed */
+color: #666;
+}
+
+.project-form small:first-child {
+margin-top: 15px; /* Add more space above the first comment */
+}
+
+/* Add styles for video containers */
+.project-card video {
+width: 100%;
+max-height: 400px; /* Adjust the maximum height as needed */
+object-fit: cover;
+}
+
+/* Add styles for the slider */
+.carousel-container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+.carousel-container h2 {
+font-size: 2rem;
+margin-bottom: 20px;
+color: #333;
+}
+
+.carousel {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.carousel .carousel-slider {
+max-width: 100%;
+}
+
+.carousel .slide {
+background-color: #fff;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+}
+
+.carousel .slide img,
+.carousel .slide video {
+max-width: 100%;
+max-height: 400px; /* Adjust the maximum height as needed */
+object-fit: cover;
+}
+
+.carousel .slide .legend {
+font-size: 1.2rem;
+margin-top: 10px;
+color: #333;
+}
+
+/* Add this CSS for styling project type radio buttons */
+.project-type {
+display: flex;
+align-items: center;
+}
+
+.project-type label {
+display: inline-flex;
+align-items: center;
+margin-right: 15px;
+font-weight: normal;
+}
+
+.project-type input[type="radio"] {
+margin-right: 5px;
+}
+

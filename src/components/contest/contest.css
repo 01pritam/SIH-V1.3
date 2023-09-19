@@ -1,0 +1,145 @@
+/* ContestPage.css */
+
+/* Page container */
+.contest-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+  }
+  
+  /* Header section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  /* Contest form */
+  .contest-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contest-form label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contest-form input[type="text"],
+  .contest-form textarea,
+  .contest-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contest-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contest-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* To-Do List for problems */
+  .todo-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list input[type="text"],
+  .todo-list input[type="number"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-list button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .todo-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  /* List of submitted contests */
+  .submitted-contests {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submitted-contests h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .submitted-contests p {
+    margin: 8px 0;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
